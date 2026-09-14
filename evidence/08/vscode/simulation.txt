@@ -1,0 +1,16 @@
+ *  Executing task in folder PROJECT: C:\Users\a2391\AppData\Local\Microsoft\WindowsApps\python.EXE tools/lab1.py simulate 
+
+RUN C:\iverilog\bin\iverilog.EXE -g2012 -Wall -I C:\Users\a2391\lab1_08_encoder8to3\src -I C:\Users\a2391\lab1_08_encoder8to3\sim -s tb_encoder8x3 -o C:\Users\a2391\lab1_08_encoder8to3\build\sim\run-dec910da59684fe7b70af996137b7b44\sim.vvp C:\Users\a2391\lab1_08_encoder8to3\src\encoder8x3.v C:\Users\a2391\lab1_08_encoder8to3\sim\tb_encoder8x3.sv
+warning: Some design elements have no explicit time unit and/or
+       : time precision. This may cause confusing timing results.
+       : Affected design elements are:
+       :   -- module encoder8x3 declared here: C:\Users\a2391\lab1_08_encoder8to3\src\encoder8x3.v:1
+
+RUN C:\iverilog\bin\vvp.EXE -N C:\Users\a2391\lab1_08_encoder8to3\build\sim\run-dec910da59684fe7b70af996137b7b44\sim.vvp
+VCD info: dumpfile wave.vcd opened for output.
+LAB1_PASS encoder8x3 cases=256
+C:\Users\a2391\lab1_08_encoder8to3\sim\tb_encoder8x3.sv:20: $finish called at 2560000 (1ps)
+
+시뮬레이션 실행 완료. 진리표·자기검사·파형으로 회로의 정답 여부를 확인하세요.
+WAVE C:\Users\a2391\lab1_08_encoder8to3\build\sim\wave.vcd
+ *  Terminal will be reused by tasks, press any key to close it. 

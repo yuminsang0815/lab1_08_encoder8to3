@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../../../../AMDDesignTools/2026.1/Vivado/data/rsb/busdef" \
+"../../../../../OneDrive/πŸ≈¡ »≠∏È/lab1_08_encoder8to3/src/encoder8x3.v" \
+
+sv xil_defaultlib  --include "../../../../../../../AMDDesignTools/2026.1/Vivado/data/rsb/busdef" \
+"../../../../../OneDrive/πŸ≈¡ »≠∏È/lab1_08_encoder8to3/sim/tb_encoder8x3.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
