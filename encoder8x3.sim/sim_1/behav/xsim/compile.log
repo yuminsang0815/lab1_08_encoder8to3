@@ -1,6 +1,0 @@
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/a2391/OneDrive/πŸ≈¡ »≠∏È/lab1_08_encoder8to3/src/encoder8x3.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module encoder8x3
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/a2391/OneDrive/πŸ≈¡ »≠∏È/lab1_08_encoder8to3/sim/tb_encoder8x3.sv" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module tb_encoder8x3
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/a2391/lab1_08_encoder8to3/encoder8x3.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module glbl
